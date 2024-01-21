@@ -1,8 +1,9 @@
 import Video from "../components/Video.jsx";
+import styles from "../stylemodules/videolist.module.css";
 
 export default function VideoList({ data, isLoading }) {
   return (
-    <div>
+    <div className={styles.vidlist}>
       {isLoading ? (
         <h2>Search Results</h2>
       ) : (

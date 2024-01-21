@@ -1,0 +1,14 @@
+.playercontainer {
+  width: 660px;
+  height: 415px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3d3d3d;
+}

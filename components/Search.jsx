@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "../stylemodules/search.module.css";
 export default function Search({ query, setQuery, setData, setLoading }) {
-  const apiKey = "AIzaSyD1-qwptdTqaFA8zykZ4PU_a06d7cq6gRU";
+  const apiKey = "";
 
   function handleChange(e) {
     setQuery(e.target.value);

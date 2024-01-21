@@ -1,7 +1,7 @@
 import Video from "../components/Video.jsx";
 import styles from "../stylemodules/videolist.module.css";
 
-export default function VideoList({ data, isLoading }) {
+export default function VideoList({ data, isLoading, setVidId }) {
   return (
     <div className={styles.vidlist}>
       {isLoading ? (
@@ -12,6 +12,8 @@ export default function VideoList({ data, isLoading }) {
             key={video.id.videoId}
             thumbnails={video.snippet.thumbnails}
             title={video.snippet.title}
+            setVidId={setVidId}
+            videoId={video.id.videoId}
           ></Video>
         ))
       )}

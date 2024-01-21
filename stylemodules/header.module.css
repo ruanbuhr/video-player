@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logocontainer {
+  display: inline-flex;
+  align-items: center;
+  font-family: Roboto;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #8832b0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+}
+
+.searchbox {
+  width: 500px;
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  font-family: Roboto;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+}
